@@ -1,16 +1,18 @@
 [vyos-1var]
-192.168.0.134
-
-[vyos-1var:vars]
-ansible_ssh_user = vyos
-ansible_ssh_pass = P@ssw0rd
-ansible_connection = ansible.netcommon.network_cli
-ansible_network_os = vyos.vyos.vyos
+192.168.15.39
+192.168.15.112
+192.168.15.20
+192.168.15.159
+192.168.15.141
 
 [vyos-2var]
-192.168.0.133
+192.168.15.158
+192.168.15.134
+192.168.15.86
+192.168.15.152
+192.168.15.38
 
-[vyos-2var:vars]
+[all:vars]
 ansible_ssh_user = vyos
 ansible_ssh_pass = P@ssw0rd
 ansible_connection = ansible.netcommon.network_cli

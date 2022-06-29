@@ -33,7 +33,7 @@
           - set nat source rule 192 translation address masquerade
 
 - name: Configurations VyOS for 2-VARIANT
-  hosts: vyos-2var
+  hosts: vyos-2var 
   gather_facts: no 
 
   tasks:
